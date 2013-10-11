@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="edge, chrome=1" />
+<title>Emmet 文档</title>
+<link rel="shortcut icon" href="./favicon.ico" />
+
+<link rel="stylesheet" href="./c/main.css" />
+
+<script>document.write('<script src="./j/' + ('__proto__' in {} ? 'zepto.min' : 'jquery-1.8.2.min') + '.js"><\/script>')</script>
+
+<script src="./j/movie.js"></script>
+
+<script src="./j/main.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+	<div class="wrapper">
+		<header class="page-header">
+			<h1 class="site-title">
+			
+				Emmet 文档
+			
+			</h1>
+			<p class="back-to-main"><a href="http://emmet.io">Emmet 官方网站</a></p>
+			<div id="carbonads-container"><div class="carbonad"><div id="azcarbon"></div></div></div>
+			<nav>
+				
+
+<ul class="nav">
+	
+		<li class="nav__item">
+			
+				<a href="./abbreviations/">缩写</a>
+			
+			
+				
+<ul class="nav">
+	
+		<li class="nav__item">
+			
+				<a href="./abbreviations/syntax/">语法</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="./abbreviations/types/">元素类型</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="./abbreviations/implicit-names/">隐式标签名</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="./abbreviations/lorem-ipsum/">“Lorem Ipsum” 生成器</a>
+			
+			
+		</li>
+	
+</ul>	
+
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="./css-abbreviations/">CSS 缩写</a>
+			
+			
+				
+<ul class="nav">
+	
+		<li class="nav__item">
+			
+				<a href="./css-abbreviations/vendor-prefixes/">厂商前缀</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="./css-abbreviations/gradients/">渐变</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="./css-abbreviations/fuzzy-search/">模糊查找</a>
+			
+			
+		</li>
+	
+</ul>	
+
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="./actions/">功能</a>
+			
+			
+				
+<ul class="nav">
+	
+		<li class="nav__item">
+			
+				<a href="./actions/expand-abbreviation/">展开缩写</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="./actions/match-pair/">匹配标签</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="./actions/go-to-pair/">跳转到配对标签</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="./actions/wrap-with-abbreviation/">包裹缩写</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="./actions/go-to-edit-point/">跳转到编辑点</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="./actions/select-item/">选择</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="./actions/toggle-comment/">切换注释</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="./actions/split-join-tag/">分割合并标签</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="./actions/remove-tag/">删除标签</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="./actions/merge-lines/">合并行</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="./actions/update-image-size/">更新图片尺寸</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="./actions/evaluate-math/">计算数学表达式</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="./actions/inc-dec-number/">增减数字</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="./actions/reflect-css-value/">重构 CSS 值</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="./actions/base64/">编码/解码图像为 data:URL</a>
+			
+			
+		</li>
+	
+</ul>	
+
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="./filters/">过滤器</a>
+			
+			
+				
+<ul class="nav">
+	
+		<li class="nav__item">
+			
+				<a href="./filters/bem/">Yandex BEM/OOCSS</a>
+			
+			
+		</li>
+	
+</ul>	
+
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="./customization/">配置</a>
+			
+			
+				
+<ul class="nav">
+	
+		<li class="nav__item">
+			
+				<a href="./customization/snippets/">snippets.json</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="./customization/preferences/">preferences.json</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="./customization/syntax-profiles/">syntaxProfiles.json</a>
+			
+			
+		</li>
+	
+</ul>	
+
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="./cheat-sheet/">Cheat Sheet</a>
+			
+			
+		</li>
+	
+</ul>	
+
+			</nav>
+		</header>
+		<section class="page-content">
+			<h1><a name="emmet--" href="#emmet--" class="anchor"></a>Emmet — 网页开发者必备工具</h1>
+<p>Emmet (previously known as <em>Zen Coding</em>) is a web-developer’s toolkit that can greatly improve your HTML &amp; CSS workflow:</p>
+<p>Emmet (即之前著名的 <em>Zen Coding</em>) 是一个网页开发者工具，可以大大地提高你的 HTML &amp; CSS 开发效率。</p>
+<textarea class="movie-def">
+&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;title&gt;Demo&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    |
+&lt;/body&gt;
+&lt;/html&gt;
+~~~
+tooltip: Type CSS-like abbreviation
+type: ul#nav&gt;li.item$*4&gt;a{Item $}
+wait: 1000
+tooltip: Run “Expand Abbreviation” action to expand it into HTML ::: “Expand Abbreviation” (Tab key)
+wait: 600
+run: emmet.expand_abbreviation
+wait: 1000
+tooltip: Traverse between important code points with “Next/Previous Edit Point” action ::: “Next Edit Point” (Ctrl-Alt-→) <br> “Previous Edit Point” (Ctrl-Alt-←)
+wait: 1000
+run: {command: &#39;emmet.next_edit_point&#39;, times: 7}
+wait: 1000
+tooltip: Select tags with “Match Tag Pair” action ::: “Match Pair” (Cmd-D)
+run: {command: &#39;emmet.match_pair_outward&#39;, times: 3}
+wait: 1000
+moveTo: 102
+tooltip: Select important parts with “Select Next/Previous Item” action ::: “Select Next Item” (Shift-Cmd-.) <br> “Select Previous Item” (Shift-Cmd-,)
+run: {command: &#39;emmet.select_next_item&#39;, times: 7, beforeDelay: 300}
+wait: 2000
+moveTo: 95
+wait: 1000
+tooltip: Quickly comment full tag with “Toggle Comment” action ::: “Toggle Comment” (Cmd-/)
+run: {command: &#39;emmet.toggle_comment&#39;, times: 2, beforeDelay: 1000}
+</textarea>
+
+<p>Basically, most text editors out there allow you to store and re-use commonly used code chunks, called <em>“snippets”</em>. While snippets are a good way to boost your productivity, all implementations have common pitfalls: you have to define the snippet first and you can’t extend them in runtime.</p>
+<p>基本上当下大多数文本编辑器可以重用常用的代码块，称为“代码片断”（ <em>snippets</em> ）。代码片断是提高生产效率的好办法，不过所有的实现都有共同的缺陷：要先定义代码片断并且不能实时展开。</p>
+<p>Emmet takes the snippets idea to a whole new level: you can type <em>CSS-like</em> expressions that can be dynamically parsed, and produce output depending on what you type in the abbreviation. Emmet is developed and optimised for web-developers whose workflow depends on HTML/XML and CSS, but can be used with programming languages too.</p>
+<p>Emmet 将代码片断的思想提升到全新的高度：书写类似于 CSS 的表达式，然后实时解析展开。Emmet 是为了HTML/XML 与 CSS 而开发，也最适合用于它们，不过也能与编程语言一块使用。</p>
+<p>Start learning Emmet with the <a href="./abbreviations/">abbreviation syntax</a> and available <a href="./actions/">actions</a>.</p>
+<p>开始学习 Emmet： <a href="./abbreviations/">缩写</a> 与 <a href="./actions/">功能</a>。</p>
+<p><a href="http://emmet.io/download/" class="btn btn-primary download-main">Download<span class="download-main__comment">plugin for your favourite editor</span></a></p>
+<p>译注：官方没有开发 Vim 插件，需要的请查看<a href="http://www.zfanw.com/blog/zencoding-vim-tutorial-chinese.html">emmet-vim</a>。</p>
+
+		</section>
+		<div class="clear"></div>
+		<footer class="page-footer">
+			<p class="small-text"><a href="https://github.com/yanxyz/emmet-docs">source</a><br />翻译版权 <a href="http://creativecommons.org/licenses/by/3.0/cn/">CC BY 3.0 CN</a>
+			</p>
+		</footer>
+	</div>
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-20314275-3', 'yanxyz.github.io');
+	ga('send', 'pageview');
+
+	if (typeof NO_ADS === 'undefined') {
+		var z = document.createElement("script"); z.type = "text/javascript"; z.async = true; z.src = "http://engine.carbonads.com/z/50357/azcarbon_2_1_0_HORIZ"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);
+	}
+</script>
+</body>
+</html>

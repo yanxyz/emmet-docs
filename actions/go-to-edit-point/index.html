@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="edge, chrome=1" />
+<title>跳转到编辑点</title>
+<link rel="shortcut icon" href="../../favicon.ico" />
+
+<link rel="stylesheet" href="../../c/main.css" />
+
+<script>document.write('<script src="../../j/' + ('__proto__' in {} ? 'zepto.min' : 'jquery-1.8.2.min') + '.js"><\/script>')</script>
+
+<script src="../../j/movie.js"></script>
+
+<script src="../../j/main.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+	<div class="wrapper">
+		<header class="page-header">
+			<h1 class="site-title">
+			
+				<a href="../../">Emmet 文档</a>
+			
+			</h1>
+			<p class="back-to-main"><a href="http://emmet.io">Emmet 官方网站</a></p>
+			<div id="carbonads-container"><div class="carbonad"><div id="azcarbon"></div></div></div>
+			<nav>
+				
+
+<ul class="nav">
+	
+		<li class="nav__item">
+			
+				<a href="../../abbreviations/">缩写</a>
+			
+			
+				
+<ul class="nav">
+	
+		<li class="nav__item">
+			
+				<a href="../../abbreviations/syntax/">语法</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../abbreviations/types/">元素类型</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../abbreviations/implicit-names/">隐式标签名</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../abbreviations/lorem-ipsum/">“Lorem Ipsum” 生成器</a>
+			
+			
+		</li>
+	
+</ul>	
+
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../css-abbreviations/">CSS 缩写</a>
+			
+			
+				
+<ul class="nav">
+	
+		<li class="nav__item">
+			
+				<a href="../../css-abbreviations/vendor-prefixes/">厂商前缀</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../css-abbreviations/gradients/">渐变</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../css-abbreviations/fuzzy-search/">模糊查找</a>
+			
+			
+		</li>
+	
+</ul>	
+
+			
+		</li>
+	
+		<li class="nav__item nav__item_selected">
+			
+				<a href="../../actions/">功能</a>
+			
+			
+				
+<ul class="nav">
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/expand-abbreviation/">展开缩写</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/match-pair/">匹配标签</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/go-to-pair/">跳转到配对标签</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/wrap-with-abbreviation/">包裹缩写</a>
+			
+			
+		</li>
+	
+		<li class="nav__item nav__item_selected">
+			
+				<strong>跳转到编辑点</strong>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/select-item/">选择</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/toggle-comment/">切换注释</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/split-join-tag/">分割合并标签</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/remove-tag/">删除标签</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/merge-lines/">合并行</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/update-image-size/">更新图片尺寸</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/evaluate-math/">计算数学表达式</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/inc-dec-number/">增减数字</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/reflect-css-value/">重构 CSS 值</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/base64/">编码/解码图像为 data:URL</a>
+			
+			
+		</li>
+	
+</ul>	
+
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../filters/">过滤器</a>
+			
+			
+				
+<ul class="nav">
+	
+		<li class="nav__item">
+			
+				<a href="../../filters/bem/">Yandex BEM/OOCSS</a>
+			
+			
+		</li>
+	
+</ul>	
+
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../customization/">配置</a>
+			
+			
+				
+<ul class="nav">
+	
+		<li class="nav__item">
+			
+				<a href="../../customization/snippets/">snippets.json</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../customization/preferences/">preferences.json</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../customization/syntax-profiles/">syntaxProfiles.json</a>
+			
+			
+		</li>
+	
+</ul>	
+
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../cheat-sheet/">Cheat Sheet</a>
+			
+			
+		</li>
+	
+</ul>	
+
+			</nav>
+		</header>
+		<section class="page-content">
+			<h1><a name="" href="#" class="anchor"></a>跳转到编辑点</h1>
+<p>This action works for HTML code blocks and allows you to quickly traverse between important code points:</p>
+<p>这个功能适用于 HTML 代码块，可以在要点之间跳转：</p>
+<ul>
+<li>between tags 标签之间</li>
+<li>empty attributes 空标签</li>
+<li>newlines with indentation 缩进的新行</li>
+</ul>
+<textarea class="movie-def">
+|&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div&gt;
+    |
+&lt;/div&gt;
+
+&lt;script&gt;
+    var str = &#39;&lt;ul&gt;&lt;li&gt;&lt;a&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&#39;;
+&lt;/script&gt;
+~~~
+run: {command: &#39;emmet.next_edit_point&#39;, times: 9} ::: “Next Edit Point” (Ctrl-Alt-→)
+wait: 1000
+run: {command: &#39;emmet.prev_edit_point&#39;, times: 9} ::: “Previous Edit Point” (Ctrl-Alt-←)
+wait: 1000
+moveTo: 9:4
+wait: 500
+tooltip: You can use “Go to Edit Point” action in non-HTML documents too
+run: {command: &#39;emmet.next_edit_point&#39;, times: 4}
+</textarea>
+		</section>
+		<div class="clear"></div>
+		<footer class="page-footer">
+			<p class="small-text"><a href="https://github.com/yanxyz/emmet-docs">source</a><br />翻译版权 <a href="http://creativecommons.org/licenses/by/3.0/cn/">CC BY 3.0 CN</a>
+			</p>
+		</footer>
+	</div>
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-20314275-3', 'yanxyz.github.io');
+	ga('send', 'pageview');
+
+	if (typeof NO_ADS === 'undefined') {
+		var z = document.createElement("script"); z.type = "text/javascript"; z.async = true; z.src = "http://engine.carbonads.com/z/50357/azcarbon_2_1_0_HORIZ"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);
+	}
+</script>
+</body>
+</html>

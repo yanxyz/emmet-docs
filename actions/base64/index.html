@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="edge, chrome=1" />
+<title>编码/解码图像为 data:URL</title>
+<link rel="shortcut icon" href="../../favicon.ico" />
+
+<link rel="stylesheet" href="../../c/main.css" />
+
+<script>document.write('<script src="../../j/' + ('__proto__' in {} ? 'zepto.min' : 'jquery-1.8.2.min') + '.js"><\/script>')</script>
+
+<script src="../../j/movie.js"></script>
+
+<script src="../../j/main.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+	<div class="wrapper">
+		<header class="page-header">
+			<h1 class="site-title">
+			
+				<a href="../../">Emmet 文档</a>
+			
+			</h1>
+			<p class="back-to-main"><a href="http://emmet.io">Emmet 官方网站</a></p>
+			<div id="carbonads-container"><div class="carbonad"><div id="azcarbon"></div></div></div>
+			<nav>
+				
+
+<ul class="nav">
+	
+		<li class="nav__item">
+			
+				<a href="../../abbreviations/">缩写</a>
+			
+			
+				
+<ul class="nav">
+	
+		<li class="nav__item">
+			
+				<a href="../../abbreviations/syntax/">语法</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../abbreviations/types/">元素类型</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../abbreviations/implicit-names/">隐式标签名</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../abbreviations/lorem-ipsum/">“Lorem Ipsum” 生成器</a>
+			
+			
+		</li>
+	
+</ul>	
+
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../css-abbreviations/">CSS 缩写</a>
+			
+			
+				
+<ul class="nav">
+	
+		<li class="nav__item">
+			
+				<a href="../../css-abbreviations/vendor-prefixes/">厂商前缀</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../css-abbreviations/gradients/">渐变</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../css-abbreviations/fuzzy-search/">模糊查找</a>
+			
+			
+		</li>
+	
+</ul>	
+
+			
+		</li>
+	
+		<li class="nav__item nav__item_selected">
+			
+				<a href="../../actions/">功能</a>
+			
+			
+				
+<ul class="nav">
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/expand-abbreviation/">展开缩写</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/match-pair/">匹配标签</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/go-to-pair/">跳转到配对标签</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/wrap-with-abbreviation/">包裹缩写</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/go-to-edit-point/">跳转到编辑点</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/select-item/">选择</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/toggle-comment/">切换注释</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/split-join-tag/">分割合并标签</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/remove-tag/">删除标签</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/merge-lines/">合并行</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/update-image-size/">更新图片尺寸</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/evaluate-math/">计算数学表达式</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/inc-dec-number/">增减数字</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/reflect-css-value/">重构 CSS 值</a>
+			
+			
+		</li>
+	
+		<li class="nav__item nav__item_selected">
+			
+				<strong>编码/解码图像为 data:URL</strong>
+			
+			
+		</li>
+	
+</ul>	
+
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../filters/">过滤器</a>
+			
+			
+				
+<ul class="nav">
+	
+		<li class="nav__item">
+			
+				<a href="../../filters/bem/">Yandex BEM/OOCSS</a>
+			
+			
+		</li>
+	
+</ul>	
+
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../customization/">配置</a>
+			
+			
+				
+<ul class="nav">
+	
+		<li class="nav__item">
+			
+				<a href="../../customization/snippets/">snippets.json</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../customization/preferences/">preferences.json</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../customization/syntax-profiles/">syntaxProfiles.json</a>
+			
+			
+		</li>
+	
+</ul>	
+
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../cheat-sheet/">Cheat Sheet</a>
+			
+			
+		</li>
+	
+</ul>	
+
+			</nav>
+		</header>
+		<section class="page-content">
+			<h1><a name="-dataurl" href="#-dataurl" class="anchor"></a>编码/解码图像为 data:URL</h1>
+<p>HTML and CSS allows you to embed external resources right into base using <a href="http://en.wikipedia.org/wiki/Data_URI_scheme">data:URL</a> scheme. Usually, image conversion to base64 is done with external on-line services or third-party assets builder. </p>
+<p>HTML 与 CSS 可以用 <a href="http://en.wikipedia.org/wiki/Data_URI_scheme">data:URL</a> 插入外部资源。通常用在线服务或第三方软件将图像转换为 base64。</p>
+<p>But these tools have downsides: you have to spend extra time on on-line tools or loose control on images that should or should not be converted to base64.</p>
+<p>但是这些工具有缺点：在线工具要花费额外的时间，或者不能控制图片是否应该转换为 base64。</p>
+<p>With Emmet, you can convert image to data:URL right in your editor, as well as convert it <em>back to external file</em>.</p>
+<p>使用 Emmet 在编辑器里就可以将图像转换为 base64，或者相反操作。</p>
+<textarea class="movie-def">
+body {
+    background: url(demo.png);
+}
+@@@
+tooltip: Move caret inside image path
+wait: 1000
+moveTo: 1:24
+wait: 1000
+tooltip: Run “Encode/Decode Image to data:URL” action ::: “Encode/Decode Image to data:URL” (Shift-Cmd-I)
+run: emmet.encode_decode_data_url
+@@@
+mode: text/css
+</textarea>
+		</section>
+		<div class="clear"></div>
+		<footer class="page-footer">
+			<p class="small-text"><a href="https://github.com/yanxyz/emmet-docs">source</a><br />翻译版权 <a href="http://creativecommons.org/licenses/by/3.0/cn/">CC BY 3.0 CN</a>
+			</p>
+		</footer>
+	</div>
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-20314275-3', 'yanxyz.github.io');
+	ga('send', 'pageview');
+
+	if (typeof NO_ADS === 'undefined') {
+		var z = document.createElement("script"); z.type = "text/javascript"; z.async = true; z.src = "http://engine.carbonads.com/z/50357/azcarbon_2_1_0_HORIZ"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);
+	}
+</script>
+</body>
+</html>

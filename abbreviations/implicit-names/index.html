@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="edge, chrome=1" />
+<title>隐式标签名</title>
+<link rel="shortcut icon" href="../../favicon.ico" />
+
+<link rel="stylesheet" href="../../c/main.css" />
+
+<script>document.write('<script src="../../j/' + ('__proto__' in {} ? 'zepto.min' : 'jquery-1.8.2.min') + '.js"><\/script>')</script>
+
+<script src="../../j/movie.js"></script>
+
+<script src="../../j/main.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+	<div class="wrapper">
+		<header class="page-header">
+			<h1 class="site-title">
+			
+				<a href="../../">Emmet 文档</a>
+			
+			</h1>
+			<p class="back-to-main"><a href="http://emmet.io">Emmet 官方网站</a></p>
+			<div id="carbonads-container"><div class="carbonad"><div id="azcarbon"></div></div></div>
+			<nav>
+				
+
+<ul class="nav">
+	
+		<li class="nav__item nav__item_selected">
+			
+				<a href="../../abbreviations/">缩写</a>
+			
+			
+				
+<ul class="nav">
+	
+		<li class="nav__item">
+			
+				<a href="../../abbreviations/syntax/">语法</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../abbreviations/types/">元素类型</a>
+			
+			
+		</li>
+	
+		<li class="nav__item nav__item_selected">
+			
+				<strong>隐式标签名</strong>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../abbreviations/lorem-ipsum/">“Lorem Ipsum” 生成器</a>
+			
+			
+		</li>
+	
+</ul>	
+
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../css-abbreviations/">CSS 缩写</a>
+			
+			
+				
+<ul class="nav">
+	
+		<li class="nav__item">
+			
+				<a href="../../css-abbreviations/vendor-prefixes/">厂商前缀</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../css-abbreviations/gradients/">渐变</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../css-abbreviations/fuzzy-search/">模糊查找</a>
+			
+			
+		</li>
+	
+</ul>	
+
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/">功能</a>
+			
+			
+				
+<ul class="nav">
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/expand-abbreviation/">展开缩写</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/match-pair/">匹配标签</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/go-to-pair/">跳转到配对标签</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/wrap-with-abbreviation/">包裹缩写</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/go-to-edit-point/">跳转到编辑点</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/select-item/">选择</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/toggle-comment/">切换注释</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/split-join-tag/">分割合并标签</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/remove-tag/">删除标签</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/merge-lines/">合并行</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/update-image-size/">更新图片尺寸</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/evaluate-math/">计算数学表达式</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/inc-dec-number/">增减数字</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/reflect-css-value/">重构 CSS 值</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../actions/base64/">编码/解码图像为 data:URL</a>
+			
+			
+		</li>
+	
+</ul>	
+
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../filters/">过滤器</a>
+			
+			
+				
+<ul class="nav">
+	
+		<li class="nav__item">
+			
+				<a href="../../filters/bem/">Yandex BEM/OOCSS</a>
+			
+			
+		</li>
+	
+</ul>	
+
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../customization/">配置</a>
+			
+			
+				
+<ul class="nav">
+	
+		<li class="nav__item">
+			
+				<a href="../../customization/snippets/">snippets.json</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../customization/preferences/">preferences.json</a>
+			
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../customization/syntax-profiles/">syntaxProfiles.json</a>
+			
+			
+		</li>
+	
+</ul>	
+
+			
+		</li>
+	
+		<li class="nav__item">
+			
+				<a href="../../cheat-sheet/">Cheat Sheet</a>
+			
+			
+		</li>
+	
+</ul>	
+
+			</nav>
+		</header>
+		<section class="page-content">
+			<h1><a name="" href="#" class="anchor"></a>隐式标签名</h1>
+<p>Even with such a powerful abbreviation engine, which can expand large HTML structures from short abbreviation, writing tag names may be very tedious.</p>
+<p>尽管可以利用强大的缩写引擎从简短的缩写展开大段的 HTML，但是书写标签仍然可能让人烦。</p>
+<p>In many cases you can skip typing tag names and Emmet will substitute it for you. For example, instead of <code>div.content</code> you can simply write <code>.content</code> and expand it into <code>&lt;div class=&quot;content&quot;&gt;&lt;/div&gt;</code>.</p>
+<p>在许多情况下可以省略标签名，Emmet 会妥善处理。比如不写 <code>div.content</code> 而写 <code>.content</code>，可以展开为 <code>&lt;div class=&quot;content&quot;&gt;&lt;/div&gt;</code>。</p>
+<h2><a name="how-it-works-" href="#how-it-works-" class="anchor"></a>How it works 工作原理</h2>
+<p>When you expand abbreviation, Emmet tries to grab parent context, e.g. the HTML element, inside which you’re expanding the abbreviation. If the context was grabbed successfully, Emmet uses its name to resolve implicit names:</p>
+<p>当展开缩写时，Emmet 尝试获取缩写所处位置的父元素上下文，比如 HTML 元素。如果获取成功，Emmet 使用它的名字来解析隐式标签名：</p>
+<textarea class="movie-def">
+&lt;body&gt;
+    &lt;div&gt;
+        |
+    &lt;/div&gt;
+
+    &lt;span&gt;&lt;/span&gt;
+
+    &lt;ul class=&quot;nav&quot;&gt;
+        |
+    &lt;/ul&gt;
+
+&lt;/body&gt;
+~~~
+type: .item
+wait: 1000
+tooltip: Expanding abbreviation inside block element, default tag name is <em>div</em>
+run: emmet.expand_abbreviation
+wait: 1000
+moveTo: 5:10
+type: .item
+tooltip: Expanding abbreviation inside inline element, default tag name is <em>span</em>
+run: emmet.expand_abbreviation
+wait: 1000
+moveTo: 8:8
+type: .item
+tooltip: Expanding abbreviation inside list, default tag name is <em>li</em>
+run: emmet.expand_abbreviation
+</textarea>
+
+<p>As you can see from the example above, Emmet looks at the parent tag name every time you’re expanding the abbreviation with an implicit name. Here’s how it resolves the names for some parent elements:</p>
+<p>如你所见，当展开隐式标签名时 Emmet 查找父元素标签名。下面是 Emmet 解析机制：</p>
+<ul>
+<li><code>li</code> for <code>ul</code> and <code>ol</code></li>
+<li><code>tr</code> for <code>table</code>, <code>tbody</code>, <code>thead</code> and <code>tfoot</code></li>
+<li><code>td</code> for <code>tr</code></li>
+<li><code>option</code> for <code>select</code> and <code>optgroup</code></li>
+</ul>
+<p>Take a look at some abbreviations equivalents with implicit and explicit tag names:</p>
+<p>下面缩写隐式与显式标签名输出一致：</p>
+<table>
+    <tr>
+        <td><code>.wrap&gt;.content</code></td>
+        <td><code>div.wrap&gt;div.content</code></td>
+    </tr>
+    <tr>
+        <td><code>em&gt;.info</code></td>
+        <td><code>em&gt;span.info</code></td>
+    </tr>
+    <tr>
+        <td><code>ul&gt;.item*3</code></td>
+        <td><code>ul&gt;li.item*3</code></td>
+    </tr>
+    <tr>
+        <td><code>table&gt;#row$*4&gt;[colspan=2]</code></td>
+        <td><code>table&gt;tr#row$*4&gt;td[colspan=2]</code></td>
+    </tr>
+</table>
+		</section>
+		<div class="clear"></div>
+		<footer class="page-footer">
+			<p class="small-text"><a href="https://github.com/yanxyz/emmet-docs">source</a><br />翻译版权 <a href="http://creativecommons.org/licenses/by/3.0/cn/">CC BY 3.0 CN</a>
+			</p>
+		</footer>
+	</div>
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-20314275-3', 'yanxyz.github.io');
+	ga('send', 'pageview');
+
+	if (typeof NO_ADS === 'undefined') {
+		var z = document.createElement("script"); z.type = "text/javascript"; z.async = true; z.src = "http://engine.carbonads.com/z/50357/azcarbon_2_1_0_HORIZ"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);
+	}
+</script>
+</body>
+</html>

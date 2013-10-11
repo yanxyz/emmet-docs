@@ -1,0 +1,36 @@
+@import url(assets/_normalize.css);
+@import url(assets/_highlight.css);
+@import url(assets/_preferences.css);
+
+/* CodeMirror Movie */
+@import url(assets/_movie.css);
+@import url(movie.css);
+
+@import url(assets/_layout.css);
+
+.CodeMirror {
+	font-size: 12px;
+	background: #f5f5f5;
+	border: 1px solid #e3e3e3;
+}
+
+.CodeMirror-movie {
+	margin-bottom: 20px;
+}
+
+.CodeMirror-movie_with-outline .CodeMirror-scroll {
+	margin-right: 25%;
+}
+
+.CodeMirror-movie_with-outline .CodeMirror-scrollbar {
+	right: 25%;
+}
+
+.CodeMirror-outline {
+	width: 25%;
+	font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.CodeMirror-tooltip strong {
+	color: #fff;
+}
